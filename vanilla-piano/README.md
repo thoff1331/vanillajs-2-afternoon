@@ -161,9 +161,10 @@ window.addEventListener("keypress", e => {
   tone.currentTime = 0;
   pianoKey.classList.add("pressed");
   tone.play();
-  setTimeout(function() {
-    pianoKey.classList.remove("pressed");
-  }, 300);
+  //setTimeout(function() {
+    //pianoKey.classList.remove("pressed");
+  //}, 300);
+//});
 });
 ```
 
